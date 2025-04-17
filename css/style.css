@@ -1870,7 +1870,7 @@ footer p {
   display: flex;
   align-items: flex-start;
   gap: 25px;
-  border-left: 4px solid #0f62fe;
+  border-left: 4px solid #00c096;
   padding-left: 20px;
   transition: transform 0.3s ease;
 }
@@ -1903,16 +1903,16 @@ footer p {
 .modern-btn {
   margin-top: 15px;
   background-color: transparent;
-  color: #0f62fe;
+  color: #00c096;
   font-weight: 600;
-  border: 2px solid #0f62fe;
+  border: 2px solid #00c096;
   padding: 8px 18px;
   border-radius: 30px;
   transition: all 0.3s ease;
 }
 
 .modern-btn:hover {
-  background-color: #0f62fe;
+  background: linear-gradient(135deg, #00795f, #00bcd4);
   color: white;
 }
 
@@ -2107,7 +2107,7 @@ footer p {
     min-width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #007cf0;
+    background: #00795f;
     color: white;
     display: flex;
     justify-content: center;
@@ -2150,7 +2150,7 @@ footer p {
   .journey-submit {
     padding: 12px 30px;
     border-radius: 30px;
-    background: #00bfa6;
+    background: #00795f;
     border: none;
     color: white;
     font-weight: 600;
