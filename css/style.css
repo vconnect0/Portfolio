@@ -1880,17 +1880,18 @@ footer p {
 }
 
 .service-image {
-  width: 60px;
-  min-width: 60px;
-  height: 60px;
+  width: 200px;
+  min-width: 200px;
+  height: 200px;
   object-fit: contain;
   margin-top: 4px;
 }
 
 .service-content h4 {
   font-size: 1.5rem;
-  color: #0f1c3f;
+  color: #16584e;
   margin-bottom: 8px;
+  font-weight: bolder;
 }
 
 .service-content p {
