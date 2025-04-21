@@ -16,9 +16,9 @@ body, html {
 /* Navbar Styling */
 /* Navbar Container */
 .topbar {
+  position: sticky;
   background-color: #e7f7f2;
   padding: 1rem 2rem;
-  position: fixed;
   top: 0;
   z-index: 999;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
