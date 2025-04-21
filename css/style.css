@@ -27,6 +27,7 @@ body, html {
 }
 
 .topbar-container {
+  position: sticky;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -37,6 +38,7 @@ body, html {
 
 /* Logo */
 .topbar-logo {
+  position: sticky;
   display: flex;
   align-items: center;
   gap: 10px;
