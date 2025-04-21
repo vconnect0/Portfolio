@@ -1901,21 +1901,23 @@ footer p {
 }
 
 /* CTA Button Style */
-.modern-btn {
-  margin-top: 15px;
-  background-color: transparent;
-  color: #00c096;
-  font-weight: 600;
-  border: 2px solid #00c096;
-  padding: 8px 18px;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-}
+ .btn-gradient {
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      border: 2px solid #00c096;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(38, 132, 255, 0.4);
+      transition: all 0.3s ease;
+    }
 
-.modern-btn:hover {
-  background: linear-gradient(135deg, #00795f, #00bcd4);
-  color: white;
-}
+    .btn-gradient:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
 
 /* Modal Styles */
 .modal-overlay {
