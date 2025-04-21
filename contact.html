@@ -171,7 +171,8 @@
       };
 
       // Send email using EmailJS
-      emailjs.send("service_aoc0t1t", "template_6wgp25m", emailParams)
+      emailjs  
+        .send("service_aoc0t1t", "template_6wgp25m", emailParams)
         .then(
           (response) => {
             console.log("SUCCESS!", response.status, response.text);
